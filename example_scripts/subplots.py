@@ -2,7 +2,7 @@ import plotbar
 from plotbar.plotly import Plot, Figure
 
 
-def test_plotly_figure():
+def main():
     p1 = Plot()
     data_sc = [
         {'x': 1, 'y': 1},
@@ -37,3 +37,6 @@ def test_plotly_figure():
         ]
     )
     f.show(auto_open=False)
+
+if __name__ == '__main__':
+    main()

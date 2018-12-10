@@ -1,2 +1,2 @@
-plotly
+plotly > 3
 rpy2
